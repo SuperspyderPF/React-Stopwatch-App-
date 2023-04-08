@@ -1,0 +1,45 @@
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.stopwatch {
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.stopwatch-time {
+  font-size: 4rem;
+  font-family: monospace;
+  margin-bottom: 20px;
+}
+
+.btn {
+  background-color: #6c757d;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  margin: 5px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+}
+
+.btn:hover {
+  background-color: #5a6268;
+}
+
+.btn:active {
+  background-color: #343a40;
+}
+
+.btn-start {
+  background-color: #28a745;
+}
+
+.btn-stop {
+  background-color: #dc3545;
+}
